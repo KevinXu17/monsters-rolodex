@@ -10,17 +10,25 @@ class App extends Component {
       monsters: [],
       searchField: ''
     };
+
+    //this.bindMEthod = this.bindMEthod.bind(this);  // bind method so it can use this in it
   }
 
   async componentDidMount() {
     const data = await fetch('https://jsonplaceholder.typicode.com/users')
     const data_json = await data.json();
     this.setState({monsters: data_json});
-  }
+  };
 
   setSearchField =  sf => {
    this.setState({searchField: sf.target.value});
-  }
+  };
+
+  // only for demo
+  // bindMEthod(bm) {
+  //   console.log("I am bind method")
+  // };
+
 
   render() {
     const {monsters, searchField} = this.state;
