@@ -6,4 +6,4 @@ Learning how to use react:
 1) how to design components
 2) how to deploy web in github
 
-![Image of Facade pattern](https://github.com/KevinXu17/monsters-rolodex/mainpage.png?raw=true)
+![Image of Facade pattern](https://github.com/KevinXu17/monsters-rolodex/blob/main/mainpage.png?raw=true)
